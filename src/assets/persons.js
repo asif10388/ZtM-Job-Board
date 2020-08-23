@@ -4,6 +4,21 @@ import {
 
 export const data = {
   people: [{
+    id: uuidv4(),
+    name: "Asif Hossain Khan",
+    img: "https://avatars2.githubusercontent.com/u/24840995?v=4",
+    links: {
+      website: "dailydebugger.ml",
+      linkedin: "https://www.linkedin.com/in/asif10388/",
+      github: "https://github.com/asif10388"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "Dhaka",
+      state: "",
+      country: "Bangladesh"
+    }
+  },{
       id: uuidv4(),
       name: "Yusuf Delvi",
       img: "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
